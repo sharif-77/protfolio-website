@@ -40,12 +40,12 @@
   justify-content: space-between;
   align-items: center;
 }
-.hero-items h3 {
+.hero-items > h3 {
   color: #474747;
   font-size: 45px;
   font-weight: 600;
 }
-.hero-items h1 {
+.hero-items > h1 {
   color: #181818;
   font-size: 85px;
   font-weight: 700;
@@ -64,7 +64,7 @@
   outline: none;
   margin: 40px 20px 0px 0;
 }
-.hero-items p {
+.hero-items > p {
   display: flex;
   width: 585px;
   flex-direction: column;
@@ -76,12 +76,101 @@
   line-height: 30px;
 }
 
-.hero-items-iamge >{
+.hero-items-iamge > {
   width: 100%;
   display: flex;
   justify-items: flex-end;
   padding-bottom: 0px;
 }
 
-
 /* main start */
+.about-section {
+  padding: 100px 200px;
+  width: 95%;
+  margin: 30px auto;
+  text-align: center;
+  border-radius: 10px;
+}
+.about-text > h2 {
+  text-align: center;
+  padding: 20px;
+}
+.about-text > p {
+  margin-bottom: 20px;
+  display: flex;
+  text-align: justify;
+}
+.buttons-items {
+  display: flex;
+  justify-content: space-between;
+}
+.buttons-item {
+  color: #757575;
+  width: 185px;
+  text-align: center;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 500px;
+}
+.what-i-do-section {
+  overflow: hidden;
+  gap: 5px;
+  /* border: 2px solid rebeccapurple; */
+}
+.what-my-skil {
+  text-align: center;
+  padding: 40px 0;
+  line-height: 2;
+}
+.what-my-skil > p {
+  color: #757575;
+  text-align: center;
+  font-size: 18px;
+}
+.my-skill-cards {
+  display: flex;
+  justify-content: space-between;
+}
+.my-skill-cards .card {
+  border-radius: 5px;
+  box-shadow: 0px 6px 20px 0px rgba(0, 0, 0, 0.2);
+  padding: 15px 25px;
+  line-height: 2;
+}
+.my-skill-cards .card img,
+h5,
+p {
+  margin-top: 20px;
+}
+/* summary section start */
+.summary{
+    padding: 50px;
+}
+.summary>h1{
+    text-align: center;
+    font-weight: bolder;  
+    margin-bottom: 40px;  
+}
+.summary-items-wrapper{
+    line-height: 2;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+.summary-item>h4,p{
+    color: #757575;
+}
+.cv-buttons{
+    display: block;
+  background: #fd6e0a;
+  padding: 15px 20px;
+  border: none;
+  outline: none;
+  color: white;
+  font-size: 18px;
+  border-radius: 3px;
+  text-align: center;
+  min-width: 100px;
+  margin: 30px auto;
+
+}
